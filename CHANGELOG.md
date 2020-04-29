@@ -21,6 +21,7 @@
 - `[expect]` [**BREAKING**] Make `toContain` more strict with the received type ([#10119](https://github.com/facebook/jest/pull/10119))
 - `[jest-circus]` Fixed the issue of beforeAll & afterAll hooks getting executed even if it is inside a skipped `describe` block [#10451](https://github.com/facebook/jest/issues/10451)
 - `[jest-circus]` Fix `testLocation` on Windows when using `test.each` ([#10871](https://github.com/facebook/jest/pull/10871))
+- `[jest-cli, jest-config, jest-types]` Move all default values into `jest-config` ([#9924](https://github.com/facebook/jest/pull/9924))
 - `[jest-console]` `console.dir` now respects the second argument correctly ([#10638](https://github.com/facebook/jest/pull/10638))
 - `[jest-environment-jsdom]` Use inner realm’s `ArrayBuffer` constructor ([#10885](https://github.com/facebook/jest/pull/10885))
 - `[jest-globals]` [**BREAKING**] Disallow return values other than a `Promise` from hooks and tests ([#10512](https://github.com/facebook/jest/pull/10512))
